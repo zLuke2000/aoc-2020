@@ -1,11 +1,13 @@
-""" PARTE COMUNE """
+import os
 
+""" PARTE COMUNE  """
+f = open((os.path.dirname(__file__) + '\day1_input'), 'r')
 inputNum = []
 temp = f.read()
 temp = temp.split("\n")
 f.close()
 
-""" PARTE UNO"""
+""" PARTE UNO """
 again = True
 
 for i in temp:
@@ -18,7 +20,7 @@ for i in temp:
                     print(tempI*tempJ)
                     again = False
 
-""" PARTE DUE"""
+""" PARTE DUE """
 again = True
 
 for i in temp:
