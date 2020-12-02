@@ -1,5 +1,4 @@
 import os
-import time
 """ PARTE COMUNE  """
 f = open((os.path.dirname(__file__) + '\day2_input'), 'r')
 inputNum = []
