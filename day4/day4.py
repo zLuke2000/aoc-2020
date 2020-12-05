@@ -30,7 +30,7 @@ for x in temp:
         valido = False
     if(valido):
         count += 1
-print("Passaporti validi: " + str(count))
+print("Passaporti validi:", count)
 
 """ PARTE DUE """
 count = 0
@@ -108,4 +108,4 @@ for x in temp:
         valido = False
     if(valido):
         count += 1
-print("Passaporti validi: " + str(count))
+print("Passaporti validi:", count)
