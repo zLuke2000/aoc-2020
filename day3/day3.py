@@ -14,7 +14,7 @@ for i in temp:
     if i[pos] == '#':
         countAlberi += 1
     pos = (pos+X_OFFSET)%len(i)
-print("Totale alberi incontrati: " + str(countAlberi))
+print("Totale alberi incontrati:", countAlberi)
 
 
 """ PARTE DUE """
@@ -37,4 +37,4 @@ for i in temp:
         pos = (pos+X_OFFSET)%len(i)
     even += 1
 
-print("Totale alberi incontrati: " + str(countAlberi[0]*countAlberi[1]*countAlberi[2]*countAlberi[3]*countAlberi[4]))
+print("Totale alberi incontrati:", (countAlberi[0]*countAlberi[1]*countAlberi[2]*countAlberi[3]*countAlberi[4]))
