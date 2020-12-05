@@ -23,7 +23,7 @@ for i in temp:
     count = password.count(currentChar)
     if  count >= minChar and count <= maxChar:
         countTrue +=1
-print("Password corrette: " + str(countTrue))
+print("Password corrette:", countTrue)
 
 """ PARTE DUE """
 countTrue = 0
@@ -45,4 +45,4 @@ for i in temp:
     else:
         if password[maxChar-1] == currentChar:
             countTrue += 1
-print("Password corrette: " + str(countTrue))
+print("Password corrette:", countTrue)
