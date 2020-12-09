@@ -32,3 +32,4 @@ for i in range(len(temp)):
         if somma == numCorrente:
             print("Min + Max dei numeri:", min(numeri)+max(numeri))
             break
+    break
