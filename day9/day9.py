@@ -21,6 +21,7 @@ for i in range(25,len(temp)):
         break
 
 """ PARTE DUE """
+ok = False
 for i in range(len(temp)):
     somma = 0
     numeri = []
@@ -30,6 +31,8 @@ for i in range(len(temp)):
         if somma > numCorrente:
             break
         if somma == numCorrente:
-            print("Min + Max dei numeri:", min(numeri)+max(numeri))
+            print("Numero:", min(numeri)+max(numeri))
+            ok = True
             break
-    break
+    if ok:
+        break
