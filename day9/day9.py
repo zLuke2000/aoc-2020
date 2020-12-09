@@ -21,10 +21,10 @@ for i in range(25,len(temp)):
         break
 
 """ PARTE DUE """
-for i in range(len(temp)-3):
+for i in range(len(temp)):
     somma = 0
     numeri = []
-    for j in range(i, len(temp)-3):
+    for j in range(i, len(temp)):
         numeri.append(temp[j])
         somma += temp[j]
         if somma > numCorrente:
