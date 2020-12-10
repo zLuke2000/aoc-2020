@@ -1,5 +1,5 @@
 import os
-""" PARTE UNO """
+""" PARTE COMUNE """
 f = open((os.path.dirname(__file__) + '\day8_input'), 'r')
 temp = f.read()
 temp = temp.split("\n")
