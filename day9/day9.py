@@ -1,5 +1,5 @@
 import os
-""" PARTE UNO """
+""" PARTE COMUNE """
 f = open((os.path.dirname(__file__) + '\day9_input'), 'r')
 temp = f.read()
 temp = temp.split("\n")
@@ -7,7 +7,7 @@ f.close()
 for i in range(0, len(temp)): 
     temp[i] = int(temp[i])
 
-""" PARTE DUE """
+""" PARTE UNO """
 numCorrente = 0
 for i in range(25,len(temp)):
     sommePossibili = []
