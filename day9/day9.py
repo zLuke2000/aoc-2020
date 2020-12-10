@@ -4,6 +4,8 @@ f = open((os.path.dirname(__file__) + '\day9_input'), 'r')
 temp = f.read()
 temp = temp.split("\n")
 f.close()
+
+#conversione String -> Int
 for i in range(0, len(temp)): 
     temp[i] = int(temp[i])
 
