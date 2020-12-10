@@ -1,11 +1,12 @@
 import os
-""" PARTE UNO """
+""" PARTE COMUNE """
 f = open((os.path.dirname(__file__) + '\day6_input'), 'r')
 temp = f.read()
 temp = temp.split("\n")
 f.close()
-temp.append('')
 
+""" PARTE UNO """
+temp.append('')
 tempString = ""
 risposte = 0
 for i in temp:
@@ -17,7 +18,7 @@ for i in temp:
 print("Totale risposte:", risposte)
 
 """ PARTE DUE """
-temp.pop() #rimuove l'elemento vuoto inserito alla riga 7 per risolvere il probelma 1
+temp.pop() #rimuove l'elemento vuoto inserito alla riga 9 per risolvere il probelma 1
 
 group = []
 risposte = 0
