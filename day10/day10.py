@@ -1,6 +1,6 @@
 import os
 from collections import defaultdict
-# PARTE COMUNE #
+""" PARTE COMUNE """
 f = open((os.path.dirname(__file__) + '\day10_input'), 'r')
 temp = f.read()
 temp = temp.split("\n")
@@ -10,7 +10,7 @@ f.close()
 for i in range(0, len(temp)): 
     temp[i] = int(temp[i])
 
-# PARTE UNO #
+""" PARTE UNO """
 Jolts = 0
 diffOf1, diffOf3 = 0,0
 temp = set(temp)
